@@ -1,0 +1,7 @@
+{
+  "OPEN_PALM":   0,
+  "FIST":        1,
+  "PINCH":       2,
+  "V_SIGN":      3,
+  "HANG_LOOSE":  4
+}

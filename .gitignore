@@ -1,0 +1,91 @@
+# --- Python cache/bytecode ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# --- Virtual environments ---
+# Don't commit your local venv; recreate with requirements.txt
+flickenv/
+venv/
+.env/
+.env*/
+
+# --- OS / Editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# --- Logs / temp ---
+*.log
+logs/
+*.tmp
+*.temp
+
+# --- Build / packaging ---
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+
+# --- Unit test / coverage ---
+.pytest_cache/
+.coverage*
+htmlcov/
+.tox/
+.mypy_cache/
+.cache/
+
+# --- Project specific ---
+# Raw captured frames or edited images (keep only if truly needed for repo)
+saved/
+# Large or intermediary images (remove this line if you want them tracked)
+images/
+
+# Machine learning artifacts (uncomment if you prefer to re-train each clone)
+# models/
+# *.pkl
+
+# Dataset (ignore contents but keep folder via .gitkeep)
+dataset/*
+!dataset/.gitkeep
+
+# Models (ignore trained artifacts; keep folder placeholder)
+models/*
+!models/.gitkeep
+
+# Saved generated images/results (ignore files, keep folder)
+saved/*
+!saved/.gitkeep
+
+# Images (ignore large/raw images, keep folder if needed)
+images/*
+!images/.gitkeep
+
+# Ignore compiled wheels accidentally dropped in
+*.whl
+
+# --- Additional safety ---
+# Secrets / credentials (add real env files here if you create them)
+*.key
+*.pem
+*.crt
+*.der
+
+# --- Windows specific ---
+*.exe
+*.dll
+*.bat
+*.msi
+
+# Uncomment below if you add notebooks and want outputs stripped using nbstripout
+# *.ipynb
+
+# End of .gitignore
