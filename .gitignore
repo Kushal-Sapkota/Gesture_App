@@ -6,9 +6,6 @@ __pycache__/
 *$py.class
 
 # --- Virtual environments ---
-# Don't commit your local venv; recreate with requirements.txt
-flickenv/
-venv/
 .env/
 .env*/
 
@@ -84,8 +81,5 @@ images/*
 *.dll
 *.bat
 *.msi
-
-# Uncomment below if you add notebooks and want outputs stripped using nbstripout
-# *.ipynb
 
 # End of .gitignore
